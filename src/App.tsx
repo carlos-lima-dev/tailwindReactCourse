@@ -1,10 +1,10 @@
 import "./App.css";
-import Responsive from "./components/Responsive";
+import Fontandcolors from "./components/Fontsandcolors/Fontandcolors";
 
 function App() {
   return (
     <>
-      <Responsive />
+      <Fontandcolors />
     </>
   );
 }

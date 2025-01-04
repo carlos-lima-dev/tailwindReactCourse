@@ -1,10 +1,16 @@
-import "./App.css";
+import Container from "./components/Container/Container";
 import Fontandcolors from "./components/Fontsandcolors/Fontandcolors";
+import Spacing from "./components/Spacing/Spacing";
 
 function App() {
   return (
     <>
-      <Fontandcolors />
+      <Container>
+        <Fontandcolors />
+      </Container>
+      <Container>
+        <Spacing />
+      </Container>
     </>
   );
 }
